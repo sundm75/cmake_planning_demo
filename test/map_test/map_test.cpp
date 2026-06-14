@@ -6,7 +6,7 @@ void mapTest()
 {
     cout << "this is pnc_map test" << endl;
     PNC_Map mymap;
-    mymap.map_info();
+    mymap.map_Info();
 }
 
 int main()

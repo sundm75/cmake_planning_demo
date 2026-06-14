@@ -3,13 +3,13 @@ project(map_test)
 add_executable(${PROJECT_NAME} map_test.cpp)
 
 target_include_directories(${PROJECT_NAME}
-PUBLIC
-${PNC_Map_Dir}
+    PUBLIC
+    ${Pnc_map_Dir}
 )
 
 target_link_libraries(${PROJECT_NAME}
-PUBLIC
-pnc_map
+    PUBLIC
+    pnc_map
 )
 
 add_test(
