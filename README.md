@@ -56,3 +56,8 @@ target_link_libraries(${PROJECT_NAME}
 
 ```
 
+# 安装三方库 Eigen
+
+复制到 thirt_party 目录下
+
+供 process.cpp调用

@@ -28,8 +28,8 @@ target_link_directories(${PROJECT_NAME}
 
 # 添加库链接
 target_link_libraries(${PROJECT_NAME}
-PUBLIC
-process
+    PUBLIC
+    process
 )
 
 target_link_libraries(${PROJECT_NAME}
