@@ -3,9 +3,9 @@
 
 class Process
 {
-public:
-    void plan_process();
-
-public:
-    PNC_Map my_map;
+    public:
+        void planProcess();
+    
+    public:
+        PNC_Map my_map;
 };

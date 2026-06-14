@@ -1,0 +1,9 @@
+project(pnc_map)
+
+
+file(GLOB PNC_MAP_SRC_LISTS  ${CMAKE_CURRENT_SOURCE_DIR}/*.c ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp )
+
+add_library(${PROJECT_NAME}
+SHARED
+${PNC_MAP_SRC_LISTS}
+)
